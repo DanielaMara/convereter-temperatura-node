@@ -1,0 +1,19 @@
+{
+  "name": "2015-nodejs-bmi",
+  "version": "1.0.0",
+  "description": "BMI Calculator app with Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BMI",
+    "Node",
+    "JS"
+  ],
+  "author": "UNIVAS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
