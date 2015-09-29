@@ -1,10 +1,11 @@
 {
-  "name": "2015-nodejs-bmi",
+  "name": "converter-temperatura-node",
   "version": "1.0.0",
-  "description": "BMI Calculator app with Node JS",
+  "description": "Convert Temperature with Node JS",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "BMI",
@@ -15,5 +16,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielaMara/convereter-temperatura-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielaMara/convereter-temperatura-node/issues"
+  },
+  "homepage": "https://github.com/DanielaMara/convereter-temperatura-node"
 }

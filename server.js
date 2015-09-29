@@ -8,15 +8,14 @@ app.get('/', function (req, res) {
   res.redirect('/index.tml');
 });
 
-app.get("/api/bmi", function(req, res){
+app.get("/api/convert", function(req, res){
     var
-        weight = parseFloat(req.query.weight),
-        height = parseFloat(req.query.height),
-        BMIService = require('./app/BMIService'),
-        bmiIndex = 0;
+        celsius = parseFloat(req.query.celsius),
+        ConverterService = require('./app/ConverterService'),
+        conversao = 0;
     
-    bmiIndex = BMIService.getIndex(weight, height);
-    res.send(bmiIndex.toString());
+    conversao = ConverterService.convertTemperature(celsius);
+    res.send(conversao.toString());
 });
 
 var server = app.listen(3000, function () 

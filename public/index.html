@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>Body Mass Index</title>
+<title>Converter Temperatura in Node JS</title>
 
 <link rel="stylesheet" href="asset/css/style.css" />
 
@@ -12,32 +12,24 @@
 <section class="container">
 	<form class="form">
 		<fieldset>
-			<legend>BMI Calculator</legend>
+			<legend>Converter Temperatura</legend>
 			<label>
-				Weight
-				<input id="weight" type="text" placeholder="75" required="required" />
+				Celsius
+				<input id="celsius" type="text" placeholder="ºC" required="required" />
 			</label>
-			<label>
-				Height
-				<input id="height" type="text" placeholder="Ex: 1.71" required="required" />
-			</label>
-			<!--  <label>
-				Gender
-				<input id="gender" type="select" required="required" value="F" text="F" />
-			</label>-->
-			<button>Calculate</button>
+			<button>Convert</button>
 		</fieldset>
 	</form>
 	
 	<div class="content-result">
-		<span class="label">BMI Result</span>
+		<span class="label">Fahrenheit:</span>
 		<span class="result">0.00</span>
 	</div>
 </section>
 
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="asset/js/BMIService.js"></script>
-<script src="asset/js/BMIController.js"></script>
+<script src="asset/js/ConverterService.js"></script>
+<script src="asset/js/ConverterController.js"></script>
 
 </body>
 </html>
