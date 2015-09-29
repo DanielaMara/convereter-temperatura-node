@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  res.redirect('/index.tml');
+  res.redirect('/index.html');
 });
 
 app.get("/api/convert", function(req, res){
